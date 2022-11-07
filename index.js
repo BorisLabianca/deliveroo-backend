@@ -420,6 +420,6 @@ app.all("*", (req, res) => {
   res.status(400).json("Cette page n'existe pas");
 });
 
-app.listen(process.env.PORT || 4000, () => {
+app.listen(process.env.PORT, () => {
   console.log("Server has started 🍔🍟🍕🌮");
 });
